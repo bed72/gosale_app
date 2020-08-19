@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais usadas em quase todas as telas -->
+    <color name="colorPrimary">#6932f6</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccent">#ffffff</color>
+</resources>
