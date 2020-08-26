@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.market.MarketActivity">
+
+    <LinearLayout
+        android:id="@+id/containerToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/widget_toolbar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_shape"
+        android:layout_below="@id/containerToolBar"
+        android:layout_marginTop="@dimen/heightCard">
+
+    </LinearLayout>
+
+</RelativeLayout>
