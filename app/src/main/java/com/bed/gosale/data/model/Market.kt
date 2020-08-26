@@ -1,4 +1,6 @@
 package com.bed.gosale.data.model
 
-class Market {
-}
+data class Market(
+    val name: String,
+    val description: String
+)

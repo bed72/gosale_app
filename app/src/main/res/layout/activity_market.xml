@@ -19,9 +19,16 @@
         android:animateLayoutChanges="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="@dimen/padding_16dp"
         android:background="@drawable/card_shape"
         android:layout_below="@id/containerToolBar"
         android:layout_marginTop="@dimen/heightCard">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleMarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/widget_item_market"/>
 
     </LinearLayout>
 

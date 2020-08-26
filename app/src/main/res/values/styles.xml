@@ -7,8 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Custom Style StatusBar -->
-        <item name="android:statusBarColor">@color/colorAccent</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
     </style>
 
     <!-- Custom Style SplashScreen -->
@@ -18,6 +17,18 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Custom Style Toolbar -->
+    <style name="GoToolbar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="toolbarNavigationButtonStyle">@style/GoToolbarButtonNavigationTinted</item>
+    </style>
+    <style name="GoToolbarButtonNavigationTinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:tint">@color/colorAccent</item>
     </style>
 
 </resources>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Go Sale</string>
+
+    <!-- Item da lista Preincipa -->
+    <string name="name_market">Nome do Mercado</string>
+    <string name="description_market">Descrição sobre o Mercado</string>
+    <string name="image_market">Image Market</string>
 </resources>

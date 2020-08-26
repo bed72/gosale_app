@@ -14,11 +14,10 @@
             android:theme="@style/GoSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.market.MarketActivity">
         </activity>
     </application>
 

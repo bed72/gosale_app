@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Staly version API 23 Up -->
+    <!-- Style version API 23 Up -->
     <style name="GoTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Custom Style StatusBar -->
-        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>

@@ -2,9 +2,8 @@ package com.bed.gosale.ui.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.os.Handler
-import com.bed.gosale.MainActivity
+import com.bed.gosale.ui.market.MarketActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -12,7 +11,7 @@ class SplashActivity : AppCompatActivity() {
 
     private val runnable = Runnable {
         if (!isFinishing) {
-            startActivity(Intent(applicationContext, MainActivity::class.java))
+            startActivity(Intent(applicationContext, MarketActivity::class.java))
             finish()
         }
     }
