@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -35,6 +36,17 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.3.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    // MVVM Provider
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+
+    // Firebase Firestone
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    // implementation 'com.google.firebase:firebase-database-ktx:19.3.1'
+    implementation 'com.google.firebase:firebase-firestore-ktx:21.4.1'
+
+    //Picasso Images
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
     // Dependências de Testes
     testImplementation 'junit:junit:4.12'

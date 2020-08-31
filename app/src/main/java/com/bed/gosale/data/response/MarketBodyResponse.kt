@@ -1,6 +1,8 @@
-package com.bed.gosale.data.model
+package com.bed.gosale.data.response
 
-data class Market(
+import com.bed.gosale.data.model.Market
+
+data class MarketBodyResponse (
     val img: String? = "",
     val name: String? = "",
     val email: String? = "",

@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        handler.postDelayed(runnable, 5000)
+        handler.postDelayed(runnable, 2000)
     }
 
     override fun onPause() {

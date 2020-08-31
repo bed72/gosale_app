@@ -1,8 +1,10 @@
 package com.bed.gosale.ui.market
 
+import android.R
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bed.gosale.data.model.Market
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.widget_item_market.view.*
 
 /**
@@ -12,10 +14,18 @@ import kotlinx.android.synthetic.main.widget_item_market.view.*
  **/
 class MarketViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-    private val name = itemView.nameMarket
-    private val description = itemView.descriptionMarket
+    private val picasso = Picasso.get()
+
+    private val img = itemView.image_market
+
+    private val name = itemView.name_market
+    private val description = itemView.description_market
+
 
     fun bindView(market: Market) {
+        picasso.load(market.img)
+            .into(img)
+
         /* Setando no 'text' */
         name.text = market.name
         description.text = market.description

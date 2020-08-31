@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "266191059682",
+    "firebase_url": "https://gosale-3447d.firebaseio.com",
+    "project_id": "gosale-3447d",
+    "storage_bucket": "gosale-3447d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266191059682:android:6f080879654354f94dfcbb",
+        "android_client_info": {
+          "package_name": "com.bed.gosale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266191059682-atj2f6fuibm58u71em1ckj2vbqo82jqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKjc1IR9lW2k6VgOIj8DFesGe5znFKGu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266191059682-atj2f6fuibm58u71em1ckj2vbqo82jqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

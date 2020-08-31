@@ -2,7 +2,7 @@
 <resources>
     <!-- Bordas -->
     <dimen name="cornerRadiusBackgroundShape" >
-        50dp
+        20dp
     </dimen>
     <dimen name="cornerRadiusImageShape" >
         20dp
