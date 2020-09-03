@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-      android:padding="@dimen/padding_16dp">
+    android:padding="@dimen/padding_16dp">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_image"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/heightItemList"
-        android:elevation="8dp"
+        android:layout_height="@dimen/height_item_list"
+        android:elevation="@dimen/elevation_8dp"
         app:cardBackgroundColor="@color/colorTransparent"
-        app:cardCornerRadius="@dimen/cornerRadiusImageShape">
+        app:cardCornerRadius="@dimen/corner_radius_image_shape">
 
         <ImageView
             android:id="@+id/image_market"
@@ -33,10 +33,10 @@
             android:layout_alignBottom="@id/image_market"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="@dimen/marginText_8dp"
-            android:layout_marginEnd="@dimen/marginText_8dp"
-            android:layout_marginBottom="@dimen/marginText_8dp"
-            android:padding="@dimen/marginText_8dp"
+            android:layout_marginStart="@dimen/margin_text_8dp"
+            android:layout_marginEnd="@dimen/margin_text_8dp"
+            android:layout_marginBottom="@dimen/margin_text_8dp"
+            android:padding="@dimen/margin_text_8dp"
             android:text="@string/name_market"
             android:textColor="@color/colorAccent" />
 
@@ -46,11 +46,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/name_market"
-            android:layout_alignParentStart="true"
-            android:padding="@dimen/marginText_8dp"
+            android:layout_gravity="bottom"
+            android:padding="@dimen/margin_text_8dp"
             android:text="@string/description_market"
             android:textColor="@color/colorAccent"
-            android:layout_marginStart="@dimen/marginText_8dp"
+            android:layout_marginStart="@dimen/margin_text_8dp"
             style="@style/TextAppearance.MaterialComponents.Caption"/>
     </androidx.cardview.widget.CardView>
 

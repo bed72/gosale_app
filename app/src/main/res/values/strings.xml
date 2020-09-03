@@ -5,4 +5,7 @@
     <string name="name_market">Nome do Mercado</string>
     <string name="description_market">Descrição sobre o Mercado</string>
     <string name="image_market">Image Market</string>
+    <string name="vertical_listview">Vertical ListView</string>
+    <string name="markets">Mercados</string>
+    <string name="products">Produtos</string>
 </resources>

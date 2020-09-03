@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Bordas -->
-    <dimen name="cornerRadiusBackgroundShape" >
+    <dimen name="corner_radius_background_shape" >
         20dp
     </dimen>
-    <dimen name="cornerRadiusImageShape" >
+    <dimen name="corner_radius_image_shape" >
         20dp
     </dimen>
 
     <!-- Alturas -->
-    <dimen name="heightCard" >
-        80dp
+    <dimen name="height_card" >
+        260dp
     </dimen>
-    <dimen name="heightItemList" >
-        164dp
+    <dimen name="height_item_list" >
+        110dp
     </dimen>
 
 
     <!-- Margins -->
-    <dimen name="marginText_8dp" >
+    <dimen name="margin_text_8dp" >
         8dp
+    </dimen>
+    <dimen name="margin_text_16dp" >
+        16dp
+    </dimen>
+    <dimen name="margin_text_90dp" >
+        90dp
+    </dimen>
+    <dimen name="margin_text_120dp" >
+        120dp
+    </dimen>
+    <dimen name="margin_text_150dp" >
+        150dp
+    </dimen>
+    <dimen name="margin_text_260dp" >
+        260dp
     </dimen>
 
     <!-- Paddings -->
